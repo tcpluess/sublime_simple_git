@@ -1,0 +1,59 @@
+[
+  {
+      "id": "tools"
+  },
+  {
+    "caption": "Git",
+    "children":
+    [
+      {
+        "caption": "Add all",
+        "command": "my_git_add_all"
+      },
+      {
+        "caption": "Add current",
+        "command": "my_git_add"
+      },
+      {
+        "caption": "Add...",
+        "command": "my_git_add_multi"
+      },
+      {
+        "command": "my_git_commit",
+        "caption": "Commit"
+      },
+      {
+        "command": "my_git_log",
+        "caption": "Log for this file"
+      },
+      {
+        "command": "my_git_full_log",
+        "caption": "Full log"
+      },
+      {
+        "command": "my_git_diff",
+        "caption": "Diff with last commit"
+      },
+      {
+        "command": "my_git_pull",
+        "caption": "Pull"
+      },
+      {
+        "command": "my_git_push",
+        "caption": "Push"
+      },
+      {
+        "command": "my_git_status",
+        "caption": "Status"
+      },
+      {
+        "command": "my_git_checkout",
+        "caption": "Revert (Checkout)"
+      },
+      {
+        "command": "my_git_config",
+        "caption": "Open config file"
+      }
+    ]
+  },
+]
