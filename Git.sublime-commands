@@ -1,0 +1,50 @@
+[
+  {
+    "caption": "Git: Add all",
+    "command": "my_git_add_all"
+  },
+  {
+    "caption": "Git: Add current",
+    "command": "my_git_add"
+  },
+  {
+    "caption": "Git: Add...",
+    "command": "my_git_add_multi"
+  },
+  {
+    "caption": "Git: Commit",
+    "command": "my_git_commit"
+  },
+  {
+    "caption": "Git: Log for this file",
+    "command": "my_git_log"
+  },
+  {
+    "caption": "Git: Full log",
+    "command": "my_git_full_log"
+  },
+  {
+    "caption": "Git: Diff with last commit",
+    "command": "my_git_diff"
+  },
+  {
+    "caption": "Git: Pull",
+    "command": "my_git_pull"
+  },
+  {
+    "caption": "Git: Push",
+    "command": "my_git_push"
+  },
+  {
+    "caption": "Git: Status",
+    "command": "my_git_status"
+  },
+  {
+    "caption": "Git: Revert (Checkout)",
+    "command": "my_git_checkout"
+  },
+  {
+    "caption": "Git: Open config",
+    "command": "my_git_config"
+  },
+]
