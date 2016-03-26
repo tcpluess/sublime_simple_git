@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Git Config
+hidden: True
+scope: text.gitconfig
+contexts:
+  main:
+    - match: '^\[[^]"]*("\w+")?\]'
+      comment: Section headings
+      scope: entity.gitconfig
+      captures:
+        1: string.gitconfig
+    - match: '([^=]+)\s*=\s*([^#]*)'
+      comment: Setting
+      scope: support.gitconfig
+      captures:
+        1: storage.gitconfig
+        2: string.gitconfig
+    - match: "#.*"
+      comment: Comments
+      scope: comment.gitconfig

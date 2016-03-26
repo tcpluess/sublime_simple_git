@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+first_line_match: 'commit [0-9a-fA-F]+\n'
+scope: text.git-log
+hidden: true
+contexts:
+  main:
+    - match: 'commit [0-9a-fA-F]+\n'
+      scope: markup.deleted.diff
+
+    - match: 'Author:'
+      scope: meta.diff.header.from-file
+      push: authorname
+
+    - match: 'Date.*\n'
+      scope: meta.diff.header.from-file
+
+  authorname:
+    - match: '[0-9A-Za-z]*'
+      scope: markup.inserted
+    - match: '\<.*\>\n'
+      scope: meta.diff.header.from-file
+      pop: true
